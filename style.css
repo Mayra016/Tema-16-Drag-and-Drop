@@ -1,0 +1,42 @@
+.seccion {
+    background-color: darkgreen;
+    width: 300px;
+    height: 100px;
+    padding: 1rem;
+    margin: 4rem;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+p {
+    background-color: white;
+}
+
+.texto .dragging {
+    opacity: 0.3;
+    background-color: blue;
+}
+.papelera {
+    width: 30px;
+    height: 30px;
+    padding: 3px 5px 3px 0px;
+}
+.imagen-fantasma {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    left: -100vw;
+}
+
+button {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-width: 2px;
+    border-color: lightgray;
+    border-radius: 4px;
+    padding: 3px 5px 3px 5px;
+    margin: 4rem;
+}
